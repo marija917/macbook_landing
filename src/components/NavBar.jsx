@@ -1,10 +1,10 @@
-import {navLinks} from "../../constants/index.js";
+import {navLinks} from "../constants";
 
 const NavBar = () => {
     return (
         <header>
             <nav>
-                <img src="/logo.svg" alt="Apple logo" />
+                <img  src="/logo.svg" alt="Apple logo" />
 
                 <ul>
                     {navLinks.map(({ label }) => (
@@ -26,5 +26,4 @@ const NavBar = () => {
         </header>
     )
 }
-
 export default NavBar
